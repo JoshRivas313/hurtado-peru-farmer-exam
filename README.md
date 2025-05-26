@@ -3,7 +3,7 @@
 ## Instalación
 
 1. Clona el repositorio:  
-   `git clone `
+   `git clone https://github.com/JoshRivas313/hurtado-peru-farmer-exam.git`
 
 2. Accede a la carpeta del proyecto:  
    `cd apellido-capital-farmer-exam`
