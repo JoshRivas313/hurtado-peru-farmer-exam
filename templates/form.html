@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Generar Cotización Legal</title>
+</head>
+<body>
+    <h1>Formulario de Cotización Legal</h1>
+    <form action="/cotizar" method="post">
+        <label>Nombre del cliente:</label><br />
+        <input type="text" name="nombre" required /><br /><br />
+
+        <label>Correo electrónico:</label><br />
+        <input type="email" name="email" required /><br /><br />
+
+        <label>Tipo de servicio:</label><br />
+        <select name="tipo_servicio" required>
+            <option>Constitución de empresa</option>
+            <option>Defensa laboral</option>
+            <option>Consultoría tributaria</option>
+        </select><br /><br />
+
+        <button type="submit">Generar Cotización</button>
+    </form>
+</body>
+</html>
